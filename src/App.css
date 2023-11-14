@@ -1,0 +1,67 @@
+#wpedeclogbook-admin-app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+
+@media (min-width: 1280px) {
+  #wpedeclogbook-admin-app {
+    width: 80%;
+    margin-left: 10%;
+  }
+}
+
+@media (max-width: 1280px) {
+  #wpedeclogbook-admin-app {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+
+#wpedeclogbook-admin-app button[type="input"]:hover {
+  background-color: inherit;
+  background: inherit;
+}
+
+.fade {
+  opacity: 1 !important;
+}
+
+.nav-link.active:hover,
+.active:hover {
+  color: inherit !important;
+  font-weight: bold;
+}
+
+table {
+  table-layout: fixed;
+}
+
+table thead th {
+  background-color: inherit;
+}
+
+table thead {
+  background-color: black;
+}
+
+li.nav-item[role="presentation"]>button {
+  color: black;
+  ;
+}
+
+input[type="file"]::file-selector-button {
+  border: 2px solid #2d2d30;
+  padding: .2em .4em;
+  border-radius: .2em;
+  background-color: #6b72af;
+  transition: 1s;
+  color: white;
+}
+
+input[type="file"]::file-selector-button:hover {
+  background-color: #81ecec;
+  border: 2px solid #00cec9;
+  color: black;
+}
